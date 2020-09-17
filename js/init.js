@@ -67,6 +67,10 @@ function mostrarImg(imgs) {
   expandImg.src = imgs.src;  // asigna la foto a la variable
 }
 
+function closeGallery(){
+	document.getElementById("myModal").style.display = "none";
+}
+
 function mostrarImgServ(x) {
 	if (x=='stream') {
 			document.getElementById("myStream").style.display = "block";
@@ -106,6 +110,8 @@ function mostrarImgServ(x) {
 	}
 
 }
+
+
 
 
 
