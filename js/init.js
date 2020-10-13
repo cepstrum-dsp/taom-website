@@ -204,40 +204,40 @@ window.onclick = function(event) {
 //selector de Servicios
 function seleccionar(y) {
 		if (y=='NavStream') {
-		document.getElementById("ImgStream").style.background="#4CAF50";
+		document.getElementById("ImgStream").style.background="#2b303a";
 		}
 		if (y=='NavBeat') {
-		document.getElementById("ImgBeat").style.background="#4CAF50";
+		document.getElementById("ImgBeat").style.background="#2b303a";
 		}
 		if (y=='NavCover') {
-				document.getElementById("ImgCover").style.background="#4CAF50";
+				document.getElementById("ImgCover").style.background="#2b303a";
 		}
 		if (y=='NavSingle') {
-				document.getElementById("ImgSingle").style.background="#4CAF50";
+				document.getElementById("ImgSingle").style.background="#2b303a";
 		}
 		if (y=='NavAlbum') {
-				document.getElementById("ImgAlbum").style.background="#4CAF50";
+				document.getElementById("ImgAlbum").style.background="#2b303a";
 		}
 		if (y=='NAvDiseno') {
-				document.getElementById("ImgDiseno").style.background="#4CAF50";
+				document.getElementById("ImgDiseno").style.background="#2b303a";
 		}
 		if (y=='NavRadio') {
-				document.getElementById("ImgRadio").style.background="#4CAF50";
+				document.getElementById("ImgRadio").style.background="#2b303a";
 		}
 		if (y=='NAvDemo') {
-				document.getElementById("ImgDemo").style.background="#4CAF50";
+				document.getElementById("ImgDemo").style.background="#2b303a";
 		}
 		if (y=='NavAdr') {
-				document.getElementById("ImgAdr").style.background="#4CAF50";
+				document.getElementById("ImgAdr").style.background="#2b303a";
 		}
 		if (y=='NavMix') {
-				document.getElementById("ImgMix").style.background="#4CAF50";
+				document.getElementById("ImgMix").style.background="#2b303a";
 		}
 		if (y=='NavMaster') {
-				document.getElementById("ImgMaster").style.background="#4CAF50";
+				document.getElementById("ImgMaster").style.background="#2b303a";
 		}
 		if (y=='NavRest') {
-				document.getElementById("ImgRest").style.background="#4CAF50";
+				document.getElementById("ImgRest").style.background="#2b303a";
 		}
 }
 

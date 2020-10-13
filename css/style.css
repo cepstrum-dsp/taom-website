@@ -26,14 +26,14 @@
 		font-size: 11pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #777;
+		color: #EDF2F4;
 	}
 
 	h1,h2,h3,h4,h5,h6
 	{
 		font-family: 'Lustrie';
 		font-weight: 300;
-		color: #777;
+		color: #CCC7B9;
 	}
 
 	h1{
@@ -50,14 +50,14 @@
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 		{
-			color: inherit;
+			color: #CCC7B9;
 			text-decoration: none;
 		}
 
 	strong, b
 	{
 		font-weight: 500;
-		color: #000000;
+		color: #FFFFFF;
 	}
 
 	em, i
@@ -68,7 +68,7 @@
 	a
 	{
 		text-decoration: none;
-		color: #80BA8E;
+		color: #ccc7b9;
 	}
 
 	a:hover
@@ -105,8 +105,13 @@
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table
+	ul, ol, dl, table
 	{
+		margin-bottom: 1em;
+		font-size: 12px;
+	}
+
+	p{
 		margin-bottom: 1em;
 		font-size: 1rem;
 	}
@@ -298,7 +303,7 @@
 
 	.button:hover
 	{
-		background: #70AA7E;
+		background: #DB062D;
 		color: #FFF !important;
 	}
 
@@ -846,7 +851,7 @@
 	#header
 	{
 		position: relative;
-		background: url(../images/mic_akg.jpg) no-repeat bottom center;
+		background: url(../images/piano.jpg) no-repeat bottom center;
 		background-attachment: fixed;
 		background-size: cover;
 		text-align: center;
@@ -886,7 +891,7 @@
 			line-height: 1em;
 			font-size: 7em;
 			/*color: #FFF;*/
-			color: rgba(255, 255, 255, 0.85);
+			color: rgba(204, 199, 185, 0.85);
 			/*letter-spacing: -0.05em;*/
 			letter-spacing: 0.125em;
 			margin: 0 0 0.125em 0;
@@ -897,7 +902,7 @@
 		{
 			font-size: 1.4em;
 			/*color: #FFF;*/
-			color: rgba(255, 255, 255, 0.85);
+			color: rgba(237, 242, 244, 0.85);
 		}
 
 		.esconder-celular{
@@ -942,7 +947,7 @@
 			border-color: rgba(255,255,255,.1);*/
 		}
 		#nav > ul > li a:hover {
-			background-color: #115151;
+			background-color: #2B303A;
 		  }
 
 			#nav > ul > li:last-child
@@ -992,7 +997,7 @@
 	#main
 	{
 		position: relative;
-		background: #fff;
+		background: #2B303A;
 	}
 
 	.homepage #content
@@ -1126,7 +1131,7 @@
 	#featured
 	{
 		position: relative;
-		background: #f2f2f2;
+		background: #231F20;
 		text-align: center;
 	}
 
@@ -1207,7 +1212,7 @@
 .img-info h2.nombre {
     font-size: 35px;
     text-align: center;
-    color: #111;
+    color: #CCC7B9;
     line-height: 20px;
 }
 
@@ -1215,17 +1220,21 @@
     padding-top: 10px;
     font-size: 15px;
     text-align: center;
-    color: #111;
+    color: #CCC7B9;
 }
 
 
 .img-info p {
 	width: 100%;
   font-size: 16px;
-  color: #111;
+  color: #EDF2F4;
 	line-height: 18px;
 	text-align: justify;
 
+}
+
+.img-info b {
+	color: #EDF2F4;
 }
 
 .img-avatar {
@@ -1236,6 +1245,7 @@
 .socialmedia {
 	margin-top: 12px;
 	text-align: center;
+	padding: 10px;
 
 }
 .socialmedia a{
@@ -1251,7 +1261,7 @@
 	transform: scale(1.25);
 }
 .socialmedia a i{
-	color: black;
+	color: #CCC7B9;
 	line-height: 30px;
 }
 /*galeria*/
@@ -1285,7 +1295,6 @@
 		padding-top: 10px;
 		font-size: 15px;
 		text-align: center;
-		color: #111;
 	}
 
 	.img-info p {
@@ -1293,6 +1302,7 @@
 		line-height: 18px;
 		padding: 0px 65px 0px 65px;
 	}
+
 /*
 	.img-avatar{
 		border-radius: 20%;
@@ -1361,14 +1371,14 @@
 #main-servicios
 {
 	position: relative;
-	background: #fff;
+	background: #231F20;
 }
 
 /*
 	ESTILOS Y FUENTES
 */
 #main-servicios .servicios{
-	color: black;
+	color: #EDF2F4;
 }
 .servicios h1{
 	padding: 10px;
@@ -1379,7 +1389,7 @@
 }
 
 .servicios h2{
-	color: black;
+	color: #CCC7B9;
 	font-weight: bold;
 	font-size: 2em;
 }
@@ -1393,7 +1403,7 @@ Barra lateral de servicios:
 	margin: 0;
 	padding: 0;
 	width: 25%;
-	background-color: #f1f1f1;
+	background-color: #2B303A;
 
 	position: sticky;
 	top: 45px; /*Por la barra de nav de arriba*/
@@ -1410,7 +1420,7 @@ Elementos principales:
 */
 .nav-servicios li a {
 display: block;
-color: #000;
+color: #EDF2F4;
 padding: 6px 16px;
 text-decoration: none;
 font-weight: bold;
@@ -1498,13 +1508,13 @@ padding: 1px 16px;
 
 /* Grey list item */
 .price .grey {
-	background-color: #eee;
+	background-color: #B70526;
 	font-size: 15px;
 }
 
 /* The "Sign Up" button */
 .button {
-	background-color: #4CAF50;
+	background-color: #B70526;
 	border: none;
 	color: white;
 	padding: 10px 25px;
@@ -1581,7 +1591,7 @@ text-align: center;
 }
 
 .text-overlay-info {
-  background-color: rgba(70, 168, 224,0.5);
+  background-color: rgba(43, 48, 58,0.5);
   color: white;
   font-size: 16px;
   /*padding: 16px 32px;*/
@@ -1702,7 +1712,7 @@ tableta y escritorio
 @media only screen and  (min-width: 1000px){
 	.text-overlay {
 		display: block;
-		background-color: #4CAF50;
+		background-color: #B70526;
 		color: white;
 		font-size: 16px;
 		padding: 16px 32px;
